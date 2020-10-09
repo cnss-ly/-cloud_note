@@ -26,7 +26,7 @@ git add  "file/folder name" #添加本地仓库没有的文件或文件夹
 git commit -m "modified content" #提交更改到本地仓库
 git commit -a -m "modified content" #自动添加所有文件或文件夹修改并提交到本地仓库，但无法提交增添新文件的修改。
 git checkout matser #切换到主分支
-git merge "Branch name" #合并主分支和名为“Branch name”分支的冲突。
+git merge "Branch name" #合并主分支和名为“Branch name”分支的冲突
 git push #推送本地仓库到远端
 ```
 
@@ -35,6 +35,7 @@ git push #推送本地仓库到远端
 ```
 git branch #查看本地分支
 git branch -a #查看远程分支
+git checkout -b "Branch name" #创建并切换到"Branch name"
 git branch -d "Branch name" #删除分支
 ```
 

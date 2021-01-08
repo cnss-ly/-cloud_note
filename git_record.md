@@ -16,6 +16,7 @@ ssh -T git@github.com #测试连接
 git init #初始化一个本地仓库
 ```
 ###  Modify the remote warehouse
+
 ```shell
 git clone "url" #将远端仓库克隆到本地
 		case: git clone git@github.com:cnss-ly/cloud_note.git
@@ -53,4 +54,18 @@ git reflog #查看使用过的git命令,可以得到当前版本以后的版本
 ```
 
 日后添加各命令详细介绍
+
+### git stash
+
+```shell
+git stash #储藏未提交的更改
+git stash pop #取出最近一次储藏
+
+git stash save stash_name #储藏且命名stash_name
+git stash list #stash列表,展示所有储藏，格式stash@{namber}
+stash@{0},stash@{1},...
+git stash pop stash@{number} #取出指定stash
+```
+
+
 
